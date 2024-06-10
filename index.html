@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" href="assets/webicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#Home">Home</a>
+          <a href="#developement">Developement</a>
+          <a href="#progress">Progress</a>
+          <a href="#contact">Contact</a>
+          <a href="#footer">Footer</a>
+        </div>
+      </div>
+    <button onclick="openNav()" id="myBtn1" title="Nav">Navigation</button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="navBar">
+        <div class="flaticon">
+            <img src="assets/intro.png" alt="" class="introimg">
+        </div>
+        <div class="introname">
+            <span>Student.Coder</span>
+        </div>
+        <ul class="ul">
+            <li><a href="#Home" class="item">Home</a></li>
+            <li><a href="#developement" class="item">Developement</a></li>
+            <li><a href="#progress" class="item">Progress</a></li>
+            <li><a href="#contact" class="item">Contact</a></li>
+            <li><a href="#footer" class="item">footer</a></li>
+        </ul>
+    </div>
+    <div class="home" id="Home">
+        <div class="div1">
+            <div class="name">
+                <h2 class="h2name">Hi 👋,My Self-Raj</h2>
+            </div>
+            <div class="hometext">
+                <div class="text1"><div class="text_1">Student At Nirma University</div></div>
+                <div class="text2"><div class="text_2">Learning Computer</div></div>
+                <div class="text3"><div class="text_3">Competitive Coder</div></div>
+            </div>
+        </div>
+        <div class="div2">
+        <div class="photos">
+            <img src="assets/profile.jpg" alt="" class="selfphoto">
+            <p id="rotatingtext" class="rotatingtext"></p>
+            <img src="assets/html.png" alt="" class="html"> 
+            <img src="assets/python.png" alt="" class="python">
+            <img src="assets/js.png" alt="" class="js">
+            <h2 class="developer">Developer</h2>
+        </div>
+        </div>
+    </div>
+    <div class="about" id="developement">
+        <div class="txt">
+            <p class="text">Developement</p>
+        </div>
+        <div class="images">
+            <div class="image">
+                <a href="https://github.com/raj-mistry-01/To-Do-App" target="_blank">
+                    <div class="img1">
+                        <div class="dname">To Do App-Web Dev</div>
+                        <div class="desp">These web application helps you to add , remember and complete your task</div>
+                        <div class="view">View Project&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/raj-mistry-01/Simple-FaceRecognizer" target="_blank">
+                    <div class="img2">
+                        <div class="dname">Face Recognizer</div>
+                        <div class="desp">These Code Allows you to authenticate your face ID</div>
+                        <div class="view">View Project&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/raj-mistry-01/Computer-Vision" target="_blank">
+                    <div class="img3">
+                        <div class="dname">Computer Vision</div>
+                        <div class="desp">Projects like 
+                            <ul>
+                                <li class="item1">Virtual Eye Mouse</li>
+                                <li class="item2">Virtual Mouse</li>
+                                <li class="item3">Security Camera</li>
+                                <li class="item4">Smart Attendance System</li>
+                            </ul>
+                        </div>
+                        <div class="view">View Project&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/raj-mistry-01/Machine-Learning" target="_blank">
+                    <div class="img4">
+                        <div class="dname">Machine Learning</div>
+                        <div class="desp">Fundamentals - KNN , Perceptron , Clustring...</div>
+                        <div class="view">View Project&nbsp;&nbsp;<i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="progress" id="progress">
+        <div class="div1">
+            <div class="text1">I develope skills regularly</div>
+            <div class="text2">I am currently learning flask , Django ,Cpp , Java , Twilio,Assembly , And Machine learning Automation.</div>
+            <div class="otherskills">
+                <div class="text">Other Than CSE :</div>
+                <div class="skillsimgs">
+                    <table>
+                        <tr class="row1">
+                            <td id="img1" title="leadership"></td>
+                            <td id="img2" title="trophy"></td>
+                            <td id="img3" title="friendly"></td>
+                            <td id="img4" title="Trader"></td>
+                        </tr>
+                        <tr class="row2">
+                            <td id="img5" title="Travelling"></td>
+                            <td id="img6" title="Contributer"></td>
+                            <td id="img7" title="Puntual"></td>
+                            <td id="img8" title="Sigma Mindset"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="div2">
+            <div class="div_2">
+                <div class="item1">
+                    <div class="text">Python</div>
+                    <div class="bar"><div id="pgr1"></div></div>
+                </div>
+                <div class="item2">
+                    <div class="text">Java</div>
+                    <div class="bar"><div id="pgr2"></div></div>
+                </div>
+                <div class="item3">
+                    <div class="text">SQL</div>
+                    <div class="bar"><div id="pgr3"></div></div>
+                </div>
+                <div class="item4">
+                    <div class="text">CSS</div>
+                    <div class="bar"><div id="pgr4"></div></div>
+                </div>
+                <div class="item5">
+                    <div class="text">JAVASCRIPT</div>
+                    <div class="bar"><div id="pgr5"></div></div>
+                </div>
+                <div class="item6">
+                    <div class="text">GOLANG</div>
+                    <div class="bar"><div id="pgr6"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="ctcbx">
+            <div class="texttitle">Don't Be A Introvert <br/> Please Connect To me Atleast</div>
+            <div class="div1">
+                <div class="div11">
+                    <div class="title">
+                        <div class="div_"></div>
+                        <div class="text">Socials</div>
+                        <div class="div_"></div>
+                    </div>
+                    <div class="table">
+                        <table>
+                            <tr>
+                                <td class="icon"><a href="https://github.com/raj-mistry-01" target="_blank"><img src="assets/i1.png"></a></td>
+                                <td class="desp">raj-mistry-01</td>
+                            </tr>
+                            <tr>
+                                <td class="icon"><a href="https://www.instagram.com/raj_mistry01" target="_blank"><img src="assets/i2.png"></a></td>
+                                <td class="desp">@raj_mistry01</td>
+                            </tr>
+                            <tr>
+                                <td class="icon"><a href="https://stackoverflow.com/users/25344606/raj-makwana" target="_blank"><img src="assets/i3.png"></a></td>
+                                <td class="desp">raj.mistry</td>
+                            </tr>
+                            <tr>
+                                <td class="icon"><a href="https://www.youtube.com/channel/UCOc0hUVMQR_bhcj14ddOnnQ" target="_blank"><img src="assets/i4.png"></a></td>
+                                <td class="desp">Raj_mistry01</td>
+                            </tr>
+                            <tr>
+                                <td class="icon"> <a href="https://x.com/https://x.com/raj_mistry01" target="_blank"><img src="assets/i5.png"></a></td>
+                                <td class="desp">raj_mistry01</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="div12">
+                    <div class="form">
+                        <input type="text" name="name" id="input1" placeholder="&nbsp;&nbsp;&nbsp;Name">
+                        <br><br>
+                        <input type="text" name="email" id="input2" placeholder="&nbsp;&nbsp;&nbsp;Email">
+                        <br><br><br>
+                        <textarea name="msg" id="" placeholder="&nbsp;Message"></textarea>
+                        <br>
+                        <button class="btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+        <div class="text">
+            <div class="txt1">© CopyRight2024 raj_mistry01. All rights reserved</div>
+            <div class="txt2">Terms And Conditions</div>
+            <div class="txt3">Privacy Policy</div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
